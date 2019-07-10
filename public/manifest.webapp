@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "My first React App for KaiOS",
+  "description": "Simple example of a to-do list",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/kaios_56.png",
+    "112": "/assets/icons/kaios_112.png"
+  },
+  "developer": {
+    "name": "KaiOS Team",
+    "url": "https://www.kaiostech.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "My first React App for KaiOS",
+      "subtitle": "Simple example of a to-do list",
+      "description": "Simple example of a to-do list"
+    }
+  },
+  "default_locale": "en-US"
+}
