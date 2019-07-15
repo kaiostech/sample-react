@@ -31,9 +31,9 @@ export const Softkey = ({
 
   return (
     <div className={css.softkey}>
-      <label className={css.left}>{left}</label>
-      <label className={css.center}>{center}</label>
-      <label className={css.right}>{right}</label>
+      <label className={css.left} data-l10n-id={left} />
+      <label className={css.center} data-l10n-id={center} />
+      <label className={css.right} data-l10n-id={right} />
     </div>
   );
 };

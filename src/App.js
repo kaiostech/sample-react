@@ -43,15 +43,15 @@ export default function App() {
 
   return (
     <>
-      <Header title="ToDo List" />
+      <Header title="app-header" />
 
-      <Input type="text" label="New task" />
+      <Input type="text" label="input-new-task" />
       <ToDos toDos={toDos} />
 
       <Softkey
-        center={current.type === "INPUT" ? "Insert" : "Toggle"}
+        center={current.type === "INPUT" ? "softkey-insert" : "softkey-toggle"}
         onKeyCenter={onKeyCenter}
-        right={current.type === "SPAN" ? "Delete" : ""}
+        right={current.type === "SPAN" ? "softkey-delete" : ""}
         onKeyRight={onKeyRight}
       />
     </>

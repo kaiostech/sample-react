@@ -13,6 +13,10 @@ In landscape devices
 
 ![](./docs/to-do-landscape.gif)
 
+Translated to pt-BR
+
+![](./docs/to-do-pt-BR.png)
+
 ## Start
 
 ```console

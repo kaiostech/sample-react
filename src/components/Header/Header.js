@@ -1,10 +1,8 @@
 import React from 'react'
 import css from './Header.module.css';
 
-export const Header = ({ title }) => {
-  return (
-    <header className={css.header}>
-      <span>{title}</span>
-    </header>
-  )
-}
+export const Header = ({ title }) => (
+  <header className={css.header}>
+    <span data-l10n-id={title} />
+  </header>
+);

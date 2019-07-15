@@ -4,6 +4,6 @@ import css from "./Input.module.css";
 export const Input = ({ label, type }) => (
   <div className={css.input}>
     <input type={type} nav-selectable="true" />
-    <label>{label}</label>
+    <label data-l10n-id={label} />
   </div>
 )
