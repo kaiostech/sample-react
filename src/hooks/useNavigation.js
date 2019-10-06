@@ -47,8 +47,13 @@ export const useNavigation = () => {
         const selectThisElement = element === selectElement;
         element.setAttribute("nav-selected", selectThisElement);
         element.setAttribute("nav-index", index);
-        if (element.nodeName === 'INPUT') {
-          selectThisElement ? element.focus() : element.blur();
+        if (selectThisElement) {
+          selectThisElement.scrollIntoView(true);
+          if (element.nodeName === 'INPUT') {
+            element.focus();
+          } else {
+            element.blur();
+          }
         }
       });
       setCurrent({ type: selectElement.tagName, index: setIndex });
