@@ -7,19 +7,11 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
-  "devDependencies": {
-    "kdeploy": "kaiostech/kdeploy"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "app:install": "kdeploy build install",
-    "app:uninstall": "kdeploy build uninstall",
-    "app:update": "kdeploy build update",
-    "app:start": "kdeploy build start",
-    "app:stop": "kdeploy build stop"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
