@@ -44,8 +44,8 @@ export const useNavigation = () => {
   const selectElement = (selectElement, setIndex = 0) => {
     if (selectElement) {
       [].forEach.call(getAllElements(), (element, index) => {
-        const selectThisElement = element === selectElement;
-        element.setAttribute("nav-selected", selectThisElement);
+        const selectThisElement = element;
+        element.setAttribute("nav-selected", element === selectElement);
         element.setAttribute("nav-index", index);
         if (selectThisElement) {
           selectThisElement.scrollIntoView(true);
