@@ -1,11 +1,11 @@
 import React from 'react';
-import css from './ToDos.module.css';
+import css from './Todos.module.css';
 
 interface ToDosProps {
 	toDos: Array<{ completed: boolean, id: number, name: string; }>;
 }
 
-export const ToDos: React.FC<ToDosProps> = ({ toDos }) => {
+export const Todos: React.FC<ToDosProps> = ({ toDos }) => {
 	if (toDos === undefined || !toDos.length) return null;
 
 	return (

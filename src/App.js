@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Header, Input, ToDos, Softkey } from "./components";
+import { Header, Input, Todos, Softkey } from "./components";
 import { useNavigation } from "./hooks";
 import { DatabaseService } from './services/Database';
 
@@ -51,7 +51,7 @@ export default function App() {
 			<Header title="ToDo List" />
 
 			<Input type="text" label="New task" />
-			<ToDos toDos={toDos} />
+			<Todos toDos={toDos} />
 
 			<Softkey
 				center={current.type === "INPUT" ? "Insert" : "Toggle"}
