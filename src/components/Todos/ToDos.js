@@ -9,6 +9,7 @@ export const ToDos = ({ toDos }) => {
       {toDos.map((toDo, index) => (
         <span
           nav-selectable="true"
+          todo-id={toDo.id}
           key={index}
           className={`${css.todo} ${toDo.completed ? css.completed : ''}`}>
           {toDo.name}
