@@ -19,7 +19,7 @@ export const Softkey: React.FC<SoftkeyProps> = (
 
 	useEffect(() => {
 		document.addEventListener("keydown", handleKeyDown);
-		return (() => { document.removeEventListener("keydown", handleKeyDown); });
+		return (() => document.removeEventListener("keydown", handleKeyDown));
 	});
 
 	const handleKeyDown = (e: KeyboardEvent) => {
