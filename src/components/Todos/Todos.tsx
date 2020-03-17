@@ -1,8 +1,9 @@
 import React from 'react';
 import css from './Todos.module.css';
+import { T_todo } from "../../types";
 
 interface ToDosProps {
-	toDos: Array<{ completed: boolean, id: number, name: string; }>;
+	toDos: Array<T_todo>;
 }
 
 export const Todos: React.FC<ToDosProps> = ({ toDos }) => {
