@@ -20,7 +20,7 @@ export default function App () {
 			setToDo(todos);
 		});
 	};
-	useEffect(getTodosFromDatabase);
+	useEffect(getTodosFromDatabase, []);
 
 	// eslint-disable-next-line @typescript-eslint/no-array-constructor
 	const [toDos, setToDo] = useState(Array<T_todo>());

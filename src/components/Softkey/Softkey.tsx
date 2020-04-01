@@ -20,7 +20,7 @@ export const Softkey: React.FC<SoftkeyProps> = (
 	useEffect(() => {
 		document.addEventListener("keydown", handleKeyDown);
 		return (() => document.removeEventListener("keydown", handleKeyDown));
-	});
+	}, []);
 
 	const handleKeyDown = (e: KeyboardEvent) => {
 		// ArrowLeft and ArrowRight only needed for in-browser testing
