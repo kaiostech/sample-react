@@ -1,6 +1,6 @@
 # Sample React app for KaiOS
 
-Simple example of a to-do list, for more information see [KaiOS Developer Portal](https://developer.kaiostech.com/getting-started/build-your-first-app/sample-code#react)
+Simple example of a to-do list, for more information see [KaiOS Developer Portal](https://developer.kaiostech.com/getting-started/build-your-first-package-app/sample-code#react)
 
 ![](./docs/to-do-on-input.png)
 ![](./docs/to-do.png)
