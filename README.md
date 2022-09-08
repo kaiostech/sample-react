@@ -31,5 +31,5 @@ yarn build
 
 ## Send the app to a KaiOS device
 
-follow [os-env-setup](https://developer.kaiostech.com/getting-started/env-setup/os-env-setup) and [test-your-apps](https://developer.kaiostech.com/getting-started/build-your-first-package-app/test-your-apps)
+follow [os-env-setup]([https://developer.kaiostech.com/getting-started/env-setup/os-env-setup](https://developer.kaiostech.com/docs/sfp-3.0/getting-started/env-setup/os-env-setup)) and [test-your-apps]([https://developer.kaiostech.com/getting-started/build-your-first-package-app/test-your-apps](https://developer.kaiostech.com/docs/sfp-3.0/getting-started/build-your-first-package-app/test-your-apps))
 install to your device.
